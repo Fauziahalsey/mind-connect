@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MindConnect - Your Path to Mental Well-being</title>
+    <link rel="stylesheet" href="Css/styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="/">MindConnect</a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/about.html">About</a></li>
+                    <li><a href="/services.html">Services</a></li>
+                    <li><a href="/community.html">Community</a></li>
+                    <li><a href="/resources.html">Resources</a></li>
+                    <li><a href="/contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="auth-buttons">
+                <button id="loginBtn" class="btn">Login</button>
+                <button id="registerBtn" class="btn">Register</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section with Slider -->
+    <section id="hero">
+        <div class="slider">
+            <div class="slides">
+                <div class="slide">
+                    <img src="images/slide1.jpg" alt="Slide 1">
+                    <div class="caption">
+                        <h1>Your Path to Mental Well-being</h1>
+                        <p>Join our community and take the first step towards better mental health.</p>
+                        <a href="/register.html" class="btn">Get Started</a>
+                        <a href="/services.html" class="btn">Learn More</a>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="images/slide2.jpg" alt="Slide 2">
+                    <div class="caption">
+                        <h1>Personalized Mental Health Support</h1>
+                        <p>Discover resources tailored to your needs.</p>
+                        <a href="/resources.html" class="btn">Explore Resources</a>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="images/slide3.jpg" alt="Slide 3">
+                    <div class="caption">
+                        <h1>Join Our Community</h1>
+                        <p>Connect with others who understand your journey.</p>
+                        <a href="/community.html" class="btn">Join Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features">
+        <div class="container">
+            <h2>Features</h2>
+            <div class="feature">
+                <img src="images/ai-assistant.png" alt="AI Assistant">
+                <h3>AI-Powered Mental Health Assistant</h3>
+                <p>Get personalized insights and resources to support your mental health journey.</p>
+            </div>
+            <div class="feature">
+                <img src="images/virtual-counseling.png" alt="Virtual Counseling">
+                <h3>Virtual Counseling</h3>
+                <p>Connect with licensed therapists for online therapy sessions.</p>
+            </div>
+            <div class="feature">
+                <img src="images/community-support.png" alt="Community Support">
+                <h3>Community Support</h3>
+                <p>Join support groups and discussion forums to share experiences and get support.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials">
+        <div class="container">
+            <h2>Testimonials</h2>
+            <div class="testimonial">
+                <p>"MindConnect has been a game-changer for my mental health. The resources and support I've received are invaluable."</p>
+                <p>- Jane Doe</p>
+            </div>
+            <div class="testimonial">
+                <p>"The virtual counseling sessions are convenient and effective. Highly recommend MindConnect!"</p>
+                <p>- John Smith</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Login Modal -->
+    <div id="loginModal" class="modal">
+        <div class="modal-content">
+            <span class="close" id="closeLogin">&times;</span>
+            <h2>Login</h2>
+            <form>
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <button type="submit" class="btn">Login</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Register Modal -->
+    <div id="registerModal" class="modal">
+        <div class="modal-content">
+            <span class="close" id="closeRegister">&times;</span>
+            <h2>Register</h2>
+            <form>
+                <label for="username">Username:</label>
+                <input type="text" id="regUsername" name="username" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="password">Password:</label>
+                <input type="password" id="regPassword" name="password" required>
+                <button type="submit" class="btn">Register</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 MindConnect. All rights reserved.</p>
+            <ul>
+                <li><a href="/privacy-policy.html">Privacy Policy</a></li>
+                <li><a href="/terms-of-service.html">Terms of Service</a></li>
+            </ul>
+            <div class="social-media">
+                <a href="#"><img src="images/facebook-icon.png" alt="Facebook"></a>
+                <a href="#"><img src="images/twitter-icon.png" alt="Twitter"></a>
+                <a href="#"><img src="images/instagram-icon.png" alt="Instagram"></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="JS/script.js"></script>
+</body>
+</html>
